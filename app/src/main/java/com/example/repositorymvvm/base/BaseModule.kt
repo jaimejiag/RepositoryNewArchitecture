@@ -33,5 +33,10 @@ val baseModule = module {
             .addConverterFactory(GsonConverterFactory.create())
 
         val retrofit = retrofitBuilder.build()
+
+        RetrofitNetwork(
+            mHttpClient = okHttpClient,
+            mRetrofit = retrofit
+        )
     }
 }

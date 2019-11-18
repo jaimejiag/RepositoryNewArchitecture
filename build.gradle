@@ -19,6 +19,7 @@ buildscript {
         retrofit='2.6.2'
         gson='2.6.2'
         okHttpProfiler='1.0.5'
+        lottie_version = '3.1.0'
     }
 
     repositories {

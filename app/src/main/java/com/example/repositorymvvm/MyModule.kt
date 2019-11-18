@@ -1,6 +1,7 @@
 package com.example.repositorymvvm
 
 import android.app.Application
+import com.example.repositorymvvm.base.baseModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -10,7 +11,7 @@ fun Application.initDI() {
     startKoin {
         androidLogger()
         androidContext(this@initDI)
-        modules(listOf(myModule))
+        modules(listOf(myModule, baseModule))
     }
 }
 
