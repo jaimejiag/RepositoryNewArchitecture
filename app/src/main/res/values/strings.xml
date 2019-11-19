@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RepositoryMVVM</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="login_user">Introduce usuario GitHub</string>
+    <string name="login_action">Ver repositorios</string>
 </resources>
